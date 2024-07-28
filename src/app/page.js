@@ -17,7 +17,7 @@ export default function Home() {
         <div className={`${styles.third} ${styles.flexer}`}  >
           <div className={`${styles.second} ${styles.flexer}`}  >
             <div className={`${styles.first} ${styles.flexer}`}  >
-              <Image src="/vector.png" width={200} height={200} />
+              <Image src="/Vector.png" width={200} height={200} />
             </div>
           </div>
         </div>
