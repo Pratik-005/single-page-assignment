@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import imgUrl from "../../public/vector.png"
+
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,7 +17,7 @@ export default function Home() {
         <div className={`${styles.third} ${styles.flexer}`}  >
           <div className={`${styles.second} ${styles.flexer}`}  >
             <div className={`${styles.first} ${styles.flexer}`}  >
-              <Image src={imgUrl} />
+              <Image src="/vector.png" width={200} height={200} />
             </div>
           </div>
         </div>

@@ -32,14 +32,19 @@
   border-radius: 50%;
   height: 392px;
   width: 392px;
-  box-shadow: 0 0 15px 5px rgba(45, 24, 95, 0.7), /* Outside shadow */
-              inset 0 0 15px 5px rgba(55, 30, 113, 0.7); /* Inside shadow */
+  box-shadow: 0 0 15px 5px rgba(45, 24, 95, 0.7),
+    /* Outside shadow */
+    inset 0 0 15px 5px rgba(55, 30, 113, 0.7);
+  /* Inside shadow */
 }
 
 #background {
   background: linear-gradient(to bottom, #2C2143 0%, #000000 100%);
   height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .para {
@@ -73,7 +78,7 @@
 #header {
   font-weight: 700;
   font-size: 29px;
-  color:  #FFFFFF;
+  color: #FFFFFF;
   text-align: center;
   margin: 22.9px 0px;
 }
@@ -81,7 +86,7 @@
 #subheader {
   font-weight: 400;
   font-size: 19px;
-  color:  #FFFFFF;
+  color: #FFFFFF;
   text-align: center;
   margin: 22.9px 0px;
   margin-bottom: 52px;
